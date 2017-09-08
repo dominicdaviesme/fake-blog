@@ -41,27 +41,62 @@ h2 {
 
 .author-text {
 	font-size: 22px;
+	float: left;
+	margin-top: 35px;
+	margin-left: 10px;
 }
+
 .containter {
 	/*	was 960px in past*/
 	width: 1140px;
-	margin: auto;
+	margin: 20px auto 0 auto;
 }
 
 /*colors from pfizer branding*/
 
 .blog-post {
-	background-color: #00aeef;
 	float: left;
 	width: 75%;
+	padding-right: 30px;
+	position: relative;
 }
 
 .other-post {
-	background-color: #00a950;
 	float: left;
 	width: 25%;
 }
 
 .author-box {
-	background-color: #f7d417;
+	padding-top: 10px;
+	border-top: 1px solid #898989;
 }
+
+.author-box img {
+	border-radius: 50%;
+	float: left;
+}
+
+.other-blog-posts {
+	margin-bottom: 30px;
+}
+
+.blog-post img {
+	height: 150px;
+	/*	maintain aspect ratio*/
+	width: auto;
+}
+
+.date {
+	/*	parent must be relative*/
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-right: 30px;
+	padding-top: 10px;
+}
+
+
+
+
+
+
