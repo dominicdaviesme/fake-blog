@@ -1,0 +1,33 @@
+/*remove default  rules */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica Neue, Arial;
+	font-size: 18;
+}
+
+h1, h2 {
+	color: green;
+	font-size: 40px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+.main-text {
+	text-align: justify;
+}
+
+.author-text {
+	font-size: 22px;
+}
